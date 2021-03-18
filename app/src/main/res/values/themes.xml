@@ -16,12 +16,20 @@
 <style name="button">
     <item name="android:background">@color/a</item>
     <item name="android:layout_weight">1</item>
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">match_parent</item>
-    <item name="android:textColor">@color/white</item>
-    <item name="android:textSize">20sp</item>
+    <item name="android:layout_width">240dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/c</item>
+    <item name="android:textSize">30sp</item>
     <item name="android:gravity">center</item>
-    <item name="android:layout_margin">0.75dp</item>
-
+    <item name="android:layout_margin">10dp</item>
+    <item name="android:fontFamily">@font/iceland</item>
 </style>
-</resources>
+    <style name="text">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/c</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/iceland</item>
+    </style></resources>

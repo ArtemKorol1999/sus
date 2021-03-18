@@ -4,52 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/b"
     tools:context=".MainMenu">
 
     <LinearLayout
-        android:layout_width="349dp"
-        android:layout_height="258dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="250dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="MissingConstraints">
 
         <Button
-            android:id="@+id/Countine"
+            android:id="@+id/b_continue"
             style="@style/button"
-            android:text="Countine" />
+            android:text="Continue" />
 
         <Button
-            android:id="@+id/New_Game"
+            android:id="@+id/b_new_game"
             style="@style/button"
             android:text="New Game" />
 
         <Button
-            android:id="@+id/Load_Game"
+            android:id="@+id/b_load_game"
             style="@style/button"
             android:text="Load Game" />
 
         <Button
-            android:id="@+id/Settings"
+            android:id="@+id/b_settings"
             style="@style/button"
             android:text="Settings" />
 
         <Button
-            android:id="@+id/Exit"
+            android:id="@+id/b_exit"
             style="@style/button"
             android:text="Exit" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
+        style="@style/text"
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:gravity="center"
         android:text="MainMenu"
-        android:textSize="12pt"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="105dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
