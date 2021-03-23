@@ -4,6 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/b"
     tools:context=".Settings">
+    <ImageView
+        android:id="@+id/b_back_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/back"
+        tools:ignore="MissingConstraints" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="104dp">
+
+        <Switch
+            android:id="@+id/sound"
+            style="@style/switch_1"
+            android:layout_height="52dp"
+            android:text="Звук"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="25dp" />
+        <Switch
+            android:id="@+id/musiс"
+            style="@style/switch_1"
+            android:layout_height="52dp"
+            android:text="Музыка"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="25dp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

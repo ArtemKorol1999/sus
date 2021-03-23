@@ -13,17 +13,17 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-<style name="button">
-    <item name="android:background">@color/a</item>
-    <item name="android:layout_weight">1</item>
-    <item name="android:layout_width">240dp</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:textColor">@color/c</item>
-    <item name="android:textSize">30sp</item>
-    <item name="android:gravity">center</item>
-    <item name="android:layout_margin">10dp</item>
-    <item name="android:fontFamily">@font/iceland</item>
-</style>
+    <style name="button">
+        <item name="android:background">@color/a</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/c</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">@font/iceland</item>
+    </style>
     <style name="text">
         <item name="android:layout_weight">1</item>
         <item name="android:layout_width">match_parent</item>
@@ -32,4 +32,14 @@
         <item name="android:textSize">50sp</item>
         <item name="android:gravity">center</item>
         <item name="android:fontFamily">@font/iceland</item>
-    </style></resources>
+    </style>
+    <style name="switch_1">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/c</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">end</item>
+        <item name="android:fontFamily">@font/iceland</item>
+    </style>
+</resources>
